@@ -353,7 +353,9 @@
 "Assets/Scripts/OrbitCamera.cs"
 "Assets/Scripts/RelativeMovement.cs"
 "Assets/Scripts/traps/activation.cs"
-"Assets/Scripts/traps/InstantDeath.cs"
+"Assets/Scripts/traps/ConstantDamage.cs"
+"Assets/Scripts/traps/LevelRestart.cs"
+"Assets/Scripts/traps/ReloadScene.cs"
 -langversion:9.0
 
 /deterministic
