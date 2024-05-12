@@ -15,7 +15,7 @@ public class FalsePlatform : MonoBehaviour{
         }
     }
     void OnTriggerEnter(Collider collider){
-        if(collider.gameObject.name == "player"){
+        if(collider.gameObject.name == "Player"){
             isFalling = true;
         }
     }
