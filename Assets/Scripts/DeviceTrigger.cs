@@ -31,6 +31,7 @@ public class DeviceTrigger : MonoBehaviour
             foreach (GameObject Target in Targets)
             {
                 Target.SendMessage("Deactivate");
+                
             }
         }
     }
