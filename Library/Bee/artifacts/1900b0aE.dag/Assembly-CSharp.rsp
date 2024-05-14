@@ -323,7 +323,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Users/netsk/Downloads/CSE4410Final-main/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/netsk/Downloads/CSE4410Final-kennethBranch/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/ConeMeshAssembly.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/ConeMeshEditorAssembly.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
@@ -343,6 +345,9 @@
 "Assets/Scripts/DeviceOperator.cs"
 "Assets/Scripts/DeviceTrigger.cs"
 "Assets/Scripts/Door.cs"
+"Assets/Scripts/FalsePlatform.cs"
+"Assets/Scripts/JumpPad.cs"
+"Assets/Scripts/mainMenu.cs"
 "Assets/Scripts/Manager/IGameManager.cs"
 "Assets/Scripts/Manager/InventoryManager.cs"
 "Assets/Scripts/Manager/Managers.cs"
@@ -350,6 +355,12 @@
 "Assets/Scripts/Manager/PlayerManager.cs"
 "Assets/Scripts/OrbitCamera.cs"
 "Assets/Scripts/RelativeMovement.cs"
+"Assets/Scripts/traps/activation.cs"
+"Assets/Scripts/traps/ConstantDamage.cs"
+"Assets/Scripts/traps/LevelRestart.cs"
+"Assets/Scripts/traps/ReloadScene.cs"
+"Assets/Scripts/UI/Main_Menu.cs"
+"Assets/Scripts/UI/Pause_Menu.cs"
 -langversion:9.0
 
 /deterministic
