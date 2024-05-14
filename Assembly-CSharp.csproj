@@ -66,8 +66,10 @@
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Manager\IGameManager.cs" />
     <Compile Include="Assets\Scripts\OrbitCamera.cs" />
+    <Compile Include="Assets\Scripts\VictoryTrigger.cs" />
     <Compile Include="Assets\Scripts\Manager\ManagerStatus.cs" />
     <Compile Include="Assets\Scripts\ColorChangeDevice.cs" />
+    <Compile Include="Assets\Scripts\Sprint.cs" />
     <Compile Include="Assets\Scripts\traps\ConstantDamage.cs" />
     <Compile Include="Assets\Scripts\JumpPad.cs" />
     <Compile Include="Assets\Scripts\traps\activation.cs" />
@@ -79,7 +81,6 @@
     <Compile Include="Assets\Scripts\traps\ReloadScene.cs" />
     <Compile Include="Assets\Scripts\Manager\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\DeviceOperator.cs" />
-    <Compile Include="Assets\Scripts\Sprint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

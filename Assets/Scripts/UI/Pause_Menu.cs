@@ -56,4 +56,9 @@ public class Pause_Menu : MonoBehaviour
         Camera.rotSpeed = 1.5f;
         SceneManager.LoadScene("MainMenu");
     }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Scene");
+        Debug.Log($"Resetting game...");
+    }
 }
