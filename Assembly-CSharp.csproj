@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Manager\Managers.cs" />
     <Compile Include="Assets\Scripts\UI\Pause_Menu.cs" />
     <Compile Include="Assets\Scripts\CollectableItem.cs" />
+    <Compile Include="Assets\Scripts\traps\LevelRestart.cs" />
     <Compile Include="Assets\Scripts\mainMenu.cs" />
     <Compile Include="Assets\Scripts\RelativeMovement.cs" />
     <Compile Include="Assets\Scripts\DeviceTrigger.cs" />
@@ -67,13 +68,18 @@
     <Compile Include="Assets\Scripts\OrbitCamera.cs" />
     <Compile Include="Assets\Scripts\Manager\ManagerStatus.cs" />
     <Compile Include="Assets\Scripts\ColorChangeDevice.cs" />
+    <Compile Include="Assets\Scripts\traps\ConstantDamage.cs" />
     <Compile Include="Assets\Scripts\JumpPad.cs" />
+    <Compile Include="Assets\Scripts\traps\activation.cs" />
     <Compile Include="Assets\Scripts\FalsePlatform.cs" />
     <Compile Include="Assets\Scripts\Manager\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\UI\Main_Menu.cs" />
     <Compile Include="Assets\Scripts\BasicUI.cs" />
+    <Compile Include="Assets\Scripts\TimelineController.cs" />
+    <Compile Include="Assets\Scripts\traps\ReloadScene.cs" />
     <Compile Include="Assets\Scripts\Manager\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\DeviceOperator.cs" />
+    <Compile Include="Assets\Scripts\Sprint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -753,6 +759,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ConeMeshEditorAssembly.csproj">
+      <Project>{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}</Project>
+      <Name>ConeMeshEditorAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="ConeMeshAssembly.csproj">
+      <Project>{AB6D733C-8CE4-DB95-8543-615E1FAC5813}</Project>
+      <Name>ConeMeshAssembly</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|c:\\users\\kenne\\desktop\\cse4410final\\assets\\scripts\\ui\\pause_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pause_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|C:\\Users\\kenne\\Desktop\\CSE4410Final\\assets\\scripts\\ui\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|c:\\users\\kenne\\desktop\\cse4410final\\assets\\scripts\\jumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|c:\\users\\kenne\\desktop\\cse4410final\\assets\\scripts\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|C:\\Users\\kenne\\Desktop\\CSE4410Final\\assets\\scripts\\jumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|C:\\Users\\kenne\\Desktop\\CSE4410Final\\assets\\scripts\\relativemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|c:\\users\\kenne\\desktop\\cse4410final\\assets\\scripts\\relativemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\relativemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|C:\\Users\\kenne\\Desktop\\CSE4410Final\\assets\\scripts\\ui\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|C:\\Users\\kenne\\Desktop\\CSE4410Final\\assets\\scripts\\ui\\pause_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20512A3-9AC5-17C8-D214-19D8F2000D76}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pause_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Sprint.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\Sprint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sprint.cs",
+              "ToolTip": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\Sprint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sprint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:57:48.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Pause_Menu.cs",
               "DocumentMoniker": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\UI\\Pause_Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Pause_Menu.cs",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\Pause_Menu.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAwwDcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:53:50.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T06:53:50.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RelativeMovement.cs",
               "DocumentMoniker": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\RelativeMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RelativeMovement.cs",
@@ -51,11 +67,12 @@
               "RelativeToolTip": "Assets\\Scripts\\RelativeMovement.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAqwGkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T00:37:49.626Z"
+              "WhenOpened": "2024-05-12T00:37:49.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JumpPad.cs",
               "DocumentMoniker": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\JumpPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\JumpPad.cs",
@@ -68,15 +85,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Main_Menu.cs",
               "DocumentMoniker": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\UI\\Main_Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Main_Menu.cs",
               "ToolTip": "C:\\Users\\kenne\\Desktop\\CSE4410Final\\Assets\\Scripts\\UI\\Main_Menu.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Main_Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T07:05:46.21Z"
+              "WhenOpened": "2024-05-11T07:05:46.21Z",
+              "EditorCaption": ""
             }
           ]
         }

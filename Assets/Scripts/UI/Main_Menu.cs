@@ -12,4 +12,9 @@ public class Main_Menu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Scene");
     }
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Player Quit the game");
+    }
 }
