@@ -15,7 +15,7 @@ C:/Users/netsk/Downloads/CSE4410Final-kennethBranch
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-7311
+15886
 Successfully changed project path to: C:/Users/netsk/Downloads/CSE4410Final-kennethBranch
 C:/Users/netsk/Downloads/CSE4410Final-kennethBranch
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/netsk/Downloads/CSE4410Final-kennethBranch
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 36.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,87 +63,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004887 seconds.
+Registered in 0.011320 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.565 seconds
+- Completed reload, in  1.847 seconds
 Domain Reload Profiling:
-	ReloadAssembly (565ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (370ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (394ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (1254ms)
+			LoadAssemblies (367ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (230ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (834ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (475ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003383 seconds.
+Registered in 0.004401 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
+- Completed reload, in  3.450 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1540ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (3451ms)
+		BeginReloadAssembly (1040ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (519ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2171ms)
+			LoadAssemblies (699ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (256ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1081ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (822ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (48.2 KB). Loaded Objects now: 2192.
-Memory consumption went from 75.7 MB to 75.7 MB.
-Total: 2.762800 ms (FindLiveObjects: 0.105200 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.555100 ms  DeleteObjects: 0.057700 ms)
+Unloading 1724 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (48.2 KB). Loaded Objects now: 2193.
+Memory consumption went from 75.9 MB to 75.9 MB.
+Total: 4.359200 ms (FindLiveObjects: 0.346900 ms CreateObjectMapping: 0.104600 ms MarkObjects: 3.827700 ms  DeleteObjects: 0.077700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,77 +157,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 686398.896547 seconds.
-  path: Assets/RPG Pack/Models/Bottles/bottle_blue.FBX
-  artifactKey: Guid(da8a393ba24fc6f49842d87b0937b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Models/Bottles/bottle_blue.FBX using Guid(da8a393ba24fc6f49842d87b0937b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3be9f9fb628e0372e486d82cd77a82d') in 0.347501 seconds 
+  Time since last request: 696918.500500 seconds.
+  path: Assets/Stylized Lava Materials/Lava02/Materials/T_Lava02_emissive.mat
+  artifactKey: Guid(f98259ebf46670143aa5b5886deecdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava02/Materials/T_Lava02_emissive.mat using Guid(f98259ebf46670143aa5b5886deecdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2658ed3a781e8484a8e19df52c5048ce') in 1.305597 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.079001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1912ms)
+		BeginReloadAssembly (393ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1260ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (599ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (24.6 KB). Loaded Objects now: 2237.
+Memory consumption went from 78.6 MB to 78.6 MB.
+Total: 10.207300 ms (FindLiveObjects: 0.705800 ms CreateObjectMapping: 0.119400 ms MarkObjects: 9.350200 ms  DeleteObjects: 0.030300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prison cell/Models/Props/Lattice.fbx
-  artifactKey: Guid(3ac0493223d9e2a4e8a75c817f343fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prison cell/Models/Props/Lattice.fbx using Guid(3ac0493223d9e2a4e8a75c817f343fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f750e613bd88511c34cd3982873f4bc6') in 0.164359 seconds 
+  Time since last request: 264.037808 seconds.
+  path: Assets/Prison cell/Prefabs
+  artifactKey: Guid(7ada35a5a6f5a1247b183668610d3764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prison cell/Prefabs using Guid(7ada35a5a6f5a1247b183668610d3764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca3b6c0f8effa867da919f7de6d40cb') in 0.023709 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
-  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2deab2b9dca675a35d71f4148b7d28e') in 0.078362 seconds 
+  Time since last request: 2.825354 seconds.
+  path: Assets/Prison cell/Models/Walls
+  artifactKey: Guid(56272c978d8f5ab4a9a4387098525bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prison cell/Models/Walls using Guid(56272c978d8f5ab4a9a4387098525bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adb1d11bcaff5361fd42f07519d36fd') in 0.019430 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prison cell/Models/Walls/ColumnRound.fbx
-  artifactKey: Guid(90e1e46584b589b488a3aac2a9096465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prison cell/Models/Walls/ColumnRound.fbx using Guid(90e1e46584b589b488a3aac2a9096465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c723bce0475abac1d4c132263ff8a0ac') in 1.323798 seconds 
+  Time since last request: 1.615117 seconds.
+  path: Assets/Prison cell/Example
+  artifactKey: Guid(133d5f4850a24cd4998327793e29b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prison cell/Example using Guid(133d5f4850a24cd4998327793e29b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a4bc9fdbc6a332c729bbcb4e50b7e3') in 0.012343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SimpleNaturePack/Models/Flowers_01.fbx
-  artifactKey: Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Flowers_01.fbx using Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49babf5a8f9c6530f293f908f555aee5') in 0.029068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SimpleNaturePack/Models/Grass_01.fbx
-  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65cafb981d306187c45a1ad9b28d557') in 0.023435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prison cell/Models/Walls/WallRound.fbx
-  artifactKey: Guid(b0df9cd41944c034e9dc6484f32fa9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prison cell/Models/Walls/WallRound.fbx using Guid(b0df9cd41944c034e9dc6484f32fa9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4c2779172bc58608390cb681ee8470') in 0.061830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prison cell/Models/Props/Mug.fbx
-  artifactKey: Guid(e4505609b256d7e4a97b0cdcd411d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prison cell/Models/Props/Mug.fbx using Guid(e4505609b256d7e4a97b0cdcd411d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b17c3025cd0db0df60ef5d794cfb98') in 0.090668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SimpleNaturePack/Models/Ground_02.fbx
-  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bed989f890cf925d477a83cafedb8c0') in 0.011671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prison cell/Models/Walls/Column.fbx
-  artifactKey: Guid(b6f197c06d7c7f04e93b9dde367f6b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prison cell/Models/Walls/Column.fbx using Guid(b6f197c06d7c7f04e93b9dde367f6b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614be00677eee95e8bfe09c035c27d09') in 1.018081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SimpleNaturePack/Models/Ground_01.fbx
-  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c9eb013678178c1cf82c4481572c51') in 0.014452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RPG Pack/Models/Bottles/bottle_red.FBX
-  artifactKey: Guid(887a534051bdbf449b6fc141de3d5c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Models/Bottles/bottle_red.FBX using Guid(887a534051bdbf449b6fc141de3d5c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f0a618be22a7db4a732156ed698174') in 0.026807 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 92.033950 seconds.
+  path: Assets/Prison cell/Materials/Fire.mat
+  artifactKey: Guid(540bb3954fd5cd54f919e59b0531f2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prison cell/Materials/Fire.mat using Guid(540bb3954fd5cd54f919e59b0531f2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a66c8491500d19ceb4c734c56da7ded') in 2.124746 seconds 
