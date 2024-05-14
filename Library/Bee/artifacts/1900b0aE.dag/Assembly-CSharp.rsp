@@ -355,6 +355,7 @@
 "Assets/Scripts/Manager/PlayerManager.cs"
 "Assets/Scripts/OrbitCamera.cs"
 "Assets/Scripts/RelativeMovement.cs"
+"Assets/Scripts/TimelineController.cs"
 "Assets/Scripts/traps/activation.cs"
 "Assets/Scripts/traps/ConstantDamage.cs"
 "Assets/Scripts/traps/LevelRestart.cs"

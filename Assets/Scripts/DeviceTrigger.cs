@@ -5,6 +5,7 @@ using UnityEngine;
 public class DeviceTrigger : MonoBehaviour
 {
     [SerializeField] GameObject[] Targets;
+    public TimelineController timelineController;
 
     public bool RequireKey;
 
@@ -20,6 +21,11 @@ public class DeviceTrigger : MonoBehaviour
             foreach (GameObject Target in Targets)
             {
                 Target.SendMessage("Activate");
+            }
+
+            if (timelineController != null)
+            {
+                timelineController.Play();
             }
         }
     }
