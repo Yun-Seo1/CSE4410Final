@@ -7,13 +7,6 @@ public class mainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject _mainMenuCanvas;
 
-    void Awake()
-    {
-        if (_mainMenuCanvas == null) {return;}
-        // disable the main menu canvas if its not a first level.
-        if(SceneManager.GetActiveScene().buildIndex !=0){ _mainMenuCanvas.SetActive(false); return;}
-        Time.timeScale = 0f;
-    }
 
     public void playButton()
     {
@@ -37,7 +30,7 @@ public class mainMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Scene");
         Debug.Log($"Resetting game...");
     }
     // Start is called before the first frame update
