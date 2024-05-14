@@ -12,10 +12,10 @@ public class JumpPad : MonoBehaviour
         switch(hit.gameObject.tag)
         {
             case "SpeedBoost":
-                
                 relativeMovement.moveSpeed = MoveSpeed;
                 break;
             case "JumpBoost":
+                AudioManager.Instance.PlaySoundEffect("JumpPad", transform.position);
                 relativeMovement.jumpSpeed = JumpSpeed;
                 break;
             case "Untagged":

@@ -4,6 +4,8 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
 public class Pause_Menu : MonoBehaviour
 {
     public GameObject Pause;
@@ -11,6 +13,11 @@ public class Pause_Menu : MonoBehaviour
     public static bool isPaused;
 
     public OrbitCamera Camera;
+
+    [SerializeField] private string pauseSoundName;
+    [SerializeField] private string resumeSoundName;
+    [SerializeField] private string goToMainMenu;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +43,8 @@ public class Pause_Menu : MonoBehaviour
 
     void PauseGame()
     {
+        AudioManager.Instance.PlayPauseSound(pauseSoundName);
+
         Pause.SetActive(true);
         Camera.rotSpeed = 0f;
         Time.timeScale = 0f;
@@ -44,6 +53,8 @@ public class Pause_Menu : MonoBehaviour
 
     public void ResumeGame()
     {
+        AudioManager.Instance.PlayResumeSound(resumeSoundName);
+
         Pause.SetActive(false);
         Camera.rotSpeed = 1.5f;
         Time.timeScale = 1f;
@@ -52,6 +63,8 @@ public class Pause_Menu : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        AudioManager.Instance.PlaySoundEffect("MainMenu", transform.position);
+
         Time.timeScale = 1f;
         Camera.rotSpeed = 1.5f;
         SceneManager.LoadScene("MainMenu");

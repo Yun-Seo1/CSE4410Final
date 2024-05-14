@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F20512A3-9AC5-17C8-D214-19D8F2000D76}</ProjectGuid>
+    <ProjectGuid>{1390EF1C-48F7-6C1A-4F33-D83284839E58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\traps\ReloadScene.cs" />
     <Compile Include="Assets\Scripts\Manager\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\DeviceOperator.cs" />
+    <Compile Include="Assets\Scripts\Manager\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -761,11 +762,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ConeMeshEditorAssembly.csproj">
-      <Project>{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}</Project>
+      <Project>{FEF856FE-C0F2-6F58-E6A2-C2E651B58525}</Project>
       <Name>ConeMeshEditorAssembly</Name>
     </ProjectReference>
     <ProjectReference Include="ConeMeshAssembly.csproj">
-      <Project>{AB6D733C-8CE4-DB95-8543-615E1FAC5813}</Project>
+      <Project>{E45423C4-2E22-C6AE-DA25-51618C2FCC30}</Project>
       <Name>ConeMeshAssembly</Name>
     </ProjectReference>
   </ItemGroup>

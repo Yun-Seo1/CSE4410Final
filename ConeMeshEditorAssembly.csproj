@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}</ProjectGuid>
+    <ProjectGuid>{FEF856FE-C0F2-6F58-E6A2-C2E651B58525}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ConeMeshEditorAssembly</AssemblyName>
@@ -722,7 +722,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ConeMeshAssembly.csproj">
-      <Project>{AB6D733C-8CE4-DB95-8543-615E1FAC5813}</Project>
+      <Project>{E45423C4-2E22-C6AE-DA25-51618C2FCC30}</Project>
       <Name>ConeMeshAssembly</Name>
     </ProjectReference>
   </ItemGroup>

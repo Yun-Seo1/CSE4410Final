@@ -9,6 +9,8 @@ public class Managers : MonoBehaviour
 {
     public static PlayerManager Player {  get; private set; }
     public static InventoryManager Inventory {  get; private set; }
+    public static AudioManager AudioManager { get; private set; }
+
 
     private List<IGameManager> StartSequence;
 
@@ -16,9 +18,10 @@ public class Managers : MonoBehaviour
     {
         Player = GetComponent<PlayerManager>();
         Inventory = GetComponent<InventoryManager>();
+        AudioManager = AudioManager.Instance;
 
         StartSequence = new List<IGameManager>();
-
+        if (AudioManager != null) StartSequence.Add(AudioManager);
         StartSequence.Add(Player);
         StartSequence.Add(Inventory);
 

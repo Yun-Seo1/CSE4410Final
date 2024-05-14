@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AB6D733C-8CE4-DB95-8543-615E1FAC5813}</ProjectGuid>
+    <ProjectGuid>{E45423C4-2E22-C6AE-DA25-51618C2FCC30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ConeMeshAssembly</AssemblyName>

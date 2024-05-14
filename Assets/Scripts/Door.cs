@@ -28,6 +28,7 @@ public class Door : MonoBehaviour
     {
         if (!_Open)
         {
+            AudioManager.Instance.PlaySoundEffect("DoorOpen", transform.position);
             Vector3 Pos = transform.position + dPos;
             transform.position = Pos;
             _Open = true;

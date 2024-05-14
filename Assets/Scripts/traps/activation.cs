@@ -38,6 +38,8 @@ public class activation : MonoBehaviour
             animator.Play("idle", -1, 0f); // Change "Idle" to the name of your idle animation
             // Play the spikes animation
             animator.Play("spikes");
+            AudioManager.Instance.PlaySoundEffect("Hurt", transform.position);
+            AudioManager.Instance.PlaySoundEffect("SpikeTrap", transform.position);
 
             // Damage the player
             if (playerManager != null)
