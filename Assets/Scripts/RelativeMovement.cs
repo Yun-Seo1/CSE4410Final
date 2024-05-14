@@ -45,7 +45,22 @@ public class RelativeMovement : MonoBehaviour {
 
 		float horInput = Input.GetAxis("Horizontal");
 		float vertInput = Input.GetAxis("Vertical");
-		if (horInput != 0 || vertInput != 0) {
+        bool isMoving = horInput != 0 || vertInput != 0;
+        if (isMoving)
+        {
+            // Walking logic
+            if (!AudioManager.Instance.IsPlayingWalkSound())
+            {
+                AudioManager.Instance.PlayWalkSound("PlayerWalking");
+            }
+        }
+        else
+        {
+            AudioManager.Instance.StopWalkSound();
+        }
+
+
+        if (horInput != 0 || vertInput != 0) {
 
 			// x z movement transformed relative to target
 			Vector3 right = target.right;
@@ -59,7 +74,8 @@ public class RelativeMovement : MonoBehaviour {
 			Quaternion direction = Quaternion.LookRotation(movement);
 			transform.rotation = Quaternion.Lerp(transform.rotation,
 			                                     direction, rotSpeed * Time.deltaTime);
-		}
+
+        }
 		animator.SetFloat("Speed", movement.sqrMagnitude);
 
 		// raycast down to address steep slopes and dropoff edge
@@ -75,7 +91,9 @@ public class RelativeMovement : MonoBehaviour {
 		if (hitGround) {
 			if (Input.GetButtonDown("Jump")) {
 				vertSpeed = jumpSpeed;
-			} else {
+                AudioManager.Instance.PlayJumpSound(transform.position);
+            }
+            else {
 				vertSpeed = minFall;
 				animator.SetBool("Jumping", false);
 			}

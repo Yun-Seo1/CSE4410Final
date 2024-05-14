@@ -7,6 +7,8 @@ public class Door : MonoBehaviour
     [SerializeField] Vector3 dPos;
 
     private bool _Open;
+    private bool isOpen = false;
+
 
     public void Operate()
     {
@@ -20,7 +22,7 @@ public class Door : MonoBehaviour
             Vector3 pos = transform.position + dPos;
             transform.position = pos;
         }
-
+        AudioManager.Instance.PlayDoorSound(transform.position);
         _Open = !_Open;
     }
 
