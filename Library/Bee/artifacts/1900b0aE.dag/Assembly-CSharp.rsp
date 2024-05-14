@@ -363,6 +363,7 @@
 "Assets/Scripts/traps/ReloadScene.cs"
 "Assets/Scripts/UI/Main_Menu.cs"
 "Assets/Scripts/UI/Pause_Menu.cs"
+"Assets/Scripts/VictoryTrigger.cs"
 -langversion:9.0
 
 /deterministic
