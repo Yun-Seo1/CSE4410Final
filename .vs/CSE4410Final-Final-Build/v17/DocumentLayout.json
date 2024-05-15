@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\ui\\pause_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pause_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\traps\\activation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\traps\\activation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\relativemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\relativemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\falseplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\falseplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\jumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\manager\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\manager\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|c:\\users\\murgo\\downloads\\cse4410final-final-build\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1390EF1C-48F7-6C1A-4F33-D83284839E58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pause_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\UI\\Pause_Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Pause_Menu.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\UI\\Pause_Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Pause_Menu.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:53:54.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "activation.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\traps\\activation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\traps\\activation.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\traps\\activation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\traps\\activation.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:52:38.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sprint.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Sprint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sprint.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Sprint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sprint.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:51:33.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RelativeMovement.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\RelativeMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RelativeMovement.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\RelativeMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RelativeMovement.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAF4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:50:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JumpPad.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\JumpPad.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JumpPad.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\JumpPad.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JumpPad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:48:55.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FalsePlatform.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\FalsePlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FalsePlatform.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\FalsePlatform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FalsePlatform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:47:50.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Door.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:46:56.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollectableItem.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\CollectableItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableItem.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\CollectableItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CollectableItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:46:07.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Managers.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Manager\\Managers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\Managers.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Manager\\Managers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\Managers.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:43:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Manager\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\murgo\\Downloads\\CSE4410Final-Final-Build\\Assets\\Scripts\\Manager\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\AudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:42:45.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeMeshAssembly", "ConeMeshAssembly.csproj", "{AB6D733C-8CE4-DB95-8543-615E1FAC5813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F20512A3-9AC5-17C8-D214-19D8F2000D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeMeshEditorAssembly", "ConeMeshEditorAssembly.csproj", "{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB6D733C-8CE4-DB95-8543-615E1FAC5813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6D733C-8CE4-DB95-8543-615E1FAC5813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6D733C-8CE4-DB95-8543-615E1FAC5813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6D733C-8CE4-DB95-8543-615E1FAC5813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20512A3-9AC5-17C8-D214-19D8F2000D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20512A3-9AC5-17C8-D214-19D8F2000D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20512A3-9AC5-17C8-D214-19D8F2000D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20512A3-9AC5-17C8-D214-19D8F2000D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AD6C3C-83B9-B6CF-3C8A-F6E0D3F826CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

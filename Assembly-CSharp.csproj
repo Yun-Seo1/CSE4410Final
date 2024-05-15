@@ -9,7 +9,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
     <ProjectGuid>{A39B6602-6074-DA0C-B830-D78D7852A71F}</ProjectGuid>
+=======
+    <ProjectGuid>{1390EF1C-48F7-6C1A-4F33-D83284839E58}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,17 +62,34 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Manager\Managers.cs" />
     <Compile Include="Assets\Scripts\CollectableItem.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\Scripts\traps\LevelRestart.cs" />
+    <Compile Include="Assets\Scripts\mainMenu.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\RelativeMovement.cs" />
     <Compile Include="Assets\Scripts\DeviceTrigger.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Manager\IGameManager.cs" />
     <Compile Include="Assets\Scripts\OrbitCamera.cs" />
+    <Compile Include="Assets\Scripts\VictoryTrigger.cs" />
     <Compile Include="Assets\Scripts\Manager\ManagerStatus.cs" />
     <Compile Include="Assets\Scripts\ColorChangeDevice.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\Scripts\Sprint.cs" />
+    <Compile Include="Assets\Scripts\traps\ConstantDamage.cs" />
+    <Compile Include="Assets\Scripts\JumpPad.cs" />
+    <Compile Include="Assets\Scripts\traps\activation.cs" />
+    <Compile Include="Assets\Scripts\FalsePlatform.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\Manager\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\BasicUI.cs" />
+    <Compile Include="Assets\Scripts\TimelineController.cs" />
+    <Compile Include="Assets\Scripts\traps\ReloadScene.cs" />
     <Compile Include="Assets\Scripts\Manager\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\DeviceOperator.cs" />
+    <Compile Include="Assets\Scripts\Manager\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -724,6 +745,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ConeMeshEditorAssembly.csproj">
+      <Project>{FEF856FE-C0F2-6F58-E6A2-C2E651B58525}</Project>
+      <Name>ConeMeshEditorAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="ConeMeshAssembly.csproj">
+      <Project>{E45423C4-2E22-C6AE-DA25-51618C2FCC30}</Project>
+      <Name>ConeMeshAssembly</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

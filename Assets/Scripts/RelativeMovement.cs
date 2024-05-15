@@ -45,7 +45,21 @@ public class RelativeMovement : MonoBehaviour {
 
 		float horInput = Input.GetAxis("Horizontal");
 		float vertInput = Input.GetAxis("Vertical");
-		if (horInput != 0 || vertInput != 0) {
+
+        bool isMoving = horInput != 0 || vertInput != 0;
+        if (isMoving)
+        {
+            // Walking logic
+            if (!AudioManager.Instance.IsPlayingWalkSound())
+            {
+                AudioManager.Instance.PlayWalkSound("PlayerWalking");
+            }
+        }
+        else
+        {
+            AudioManager.Instance.StopWalkSound();
+        }
+        if (horInput != 0 || vertInput != 0) {
 
 			// x z movement transformed relative to target
 			Vector3 right = target.right;
@@ -74,7 +88,8 @@ public class RelativeMovement : MonoBehaviour {
 		// could _charController.isGrounded instead, but then cannot workaround dropoff edge
 		if (hitGround) {
 			if (Input.GetButtonDown("Jump")) {
-				vertSpeed = jumpSpeed;
+                AudioManager.Instance.PlayJumpSound(transform.position);
+                vertSpeed = jumpSpeed;
 			} else {
 				vertSpeed = minFall;
 				animator.SetBool("Jumping", false);
